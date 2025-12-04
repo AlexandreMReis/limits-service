@@ -1,0 +1,71 @@
+## Build results
+bin/
+obj/
+out/
+launchSettings.json
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.rsuser
+
+## Visual Studio Code
+.vscode/
+*.code-workspace
+
+## Visual Studio
+.vs/
+
+## Rider
+.idea/
+*.sln.iml
+
+## Logs
+*.log
+logs/
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Exclude global NuGet cache
+~/.nuget/
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Environment & secrets
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+
+## Entity Framework
+migrations/*.Designer.cs
+migrations/*Snapshot.cs
+
+## Temporary files
+*.tmp
+*.temp
+
+## Publish output
+publish/
+*.pubxml
+*.pubxml.user
+
+## Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## Azure Functions
+local.settings.json
+
+## Docker
+**/docker-compose.override.yml**
